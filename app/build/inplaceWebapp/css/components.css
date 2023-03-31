@@ -1,0 +1,22 @@
+.btn{
+    display:inline-block;
+    line-height: 40px;
+    padding: 0px 24px;
+    border-radius: 20px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #818FBF;
+    background-color: transparent;
+}
+
+.btn-somar{
+    background-color:#28282B;
+    color: #fff;
+}
+
+.btn-yes{
+    background-color: #301934;
+    color: #fff;
+}

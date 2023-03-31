@@ -1,0 +1,43 @@
+header{
+    margin-bottom: 37px;
+    background-color:#FFFAFA;
+}
+header .container{  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container div{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+header .container div h1{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #1B1212;
+}
+header .container nav ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+header .container nav ul a.btn:hover{
+    transition: 1s;
+    background-color: #00008B;
+}
+header .container nav ul li a{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #1B1212;
+    transition: color 1s;
+}
+header .container nav ul li a:hover{
+    color:#00008B;
+}
