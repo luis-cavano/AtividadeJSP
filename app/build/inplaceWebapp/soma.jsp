@@ -40,19 +40,21 @@
             </div>
         </header>
 
-        <section>
+        <section class="soma">
             <div class="container">
-                <h1>Soma</h1>
-                <form action="soma.jsp" method="post">
-                    <ul>
-                        <li>
-                            <input type="number" name="numA" />
-                            <input type="number" name="numB" />
-                        </li>
-                    </ul>
-                    <button class="btn btn-somar" type="submit">Somar</button>    
-                    <h1> Resultado: <%= result %> </h1>
-                </form>
+                <div class="card">
+                    <h1>Soma:</h1>
+                    <form action="soma.jsp" method="post">
+                        <ul>
+                            <li>
+                                <input type="number" name="numA" />
+                                <input type="number" name="numB" />
+                            </li>
+                        </ul>
+                        <button class="btn btn-somar" type="submit">Somar</button>    
+                        <h1> Resultado: <%= result %> </h1>
+                    </form>
+                </div>     
             </div>
         </section>   
     </body>
