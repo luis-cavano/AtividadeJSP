@@ -24,6 +24,10 @@ section.soma div.container div.card h1{
 button.btn-somar{
     margin: 8px;
 }
+button.btn-somar:hover{
+    transition: 1s;
+    background-color: #0000DB;
+}
 input{
     box-sizing: border-box;
     padding: 8px;
@@ -34,6 +38,5 @@ input{
     border: none;
     border: 2px solid #1B1212;
     border-radius: 4px;
-    background-color: #FFE4C4;
-
+    /* background-color: #FFE4C4; */
 }

@@ -1,6 +1,6 @@
 header{
     margin-bottom: 37px;
-    background-color:#FFFAFA;
+    background-color:#00004A;
 }
 header .container{  
     padding-top: 20px;
@@ -19,7 +19,7 @@ header .container div h1{
     font-weight: 400;
     font-size: 16px;
     line-height: 112%;
-    color: #1B1212;
+    color: #FFFFF0;
 }
 header .container nav ul{
     display: flex;
@@ -28,16 +28,16 @@ header .container nav ul{
 }
 header .container nav ul a.btn:hover{
     transition: 1s;
-    background-color: #00008B;
+    background-color: #0000DB;
 }
 header .container nav ul li a{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 112%;
-    color: #1B1212;
+    color: #FFFFF0;
     transition: color 1s;
 }
 header .container nav ul li a:hover{
-    color:#00008B;
+    color:#FFDAB9;
 }

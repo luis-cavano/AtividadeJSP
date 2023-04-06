@@ -25,6 +25,7 @@
                     <ul>
                         <li><a href="./soma.jsp">Soma </a></li>
                         <li><a href="./tabuada.jsp">Tabuada </a></li>
+                        <li><a href="./numeros.jsp">Números</a></li>
                         <a href="" class="btn btn-yes">YES YES</a>
                     </ul>  
                 </nav>
